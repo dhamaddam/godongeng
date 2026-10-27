@@ -1,0 +1,745 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"id",
+				"id_art_user_category"
+			],
+			[
+				"if",
+				"ifelse	if … else …"
+			],
+			[
+				"cat",
+				"cat_article"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"re",
+				"res"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"gl",
+				"global"
+			],
+			[
+				"arr",
+				"array	$… = array (…)"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"pa",
+				"password"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"categ",
+				"categories"
+			],
+			[
+				"cate",
+				"Category"
+			],
+			[
+				"strt",
+				"strtolower"
+			],
+			[
+				"intva",
+				"intval"
+			],
+			[
+				"price",
+				"price"
+			],
+			[
+				"filter",
+				"filter_submit"
+			],
+			[
+				"get",
+				"get_cates"
+			],
+			[
+				"uri",
+				"uri_string"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"ca",
+				"categories_url"
+			],
+			[
+				"bran",
+				"brand_id"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"loca",
+				"location"
+			],
+			[
+				"ali",
+				"alias_state"
+			],
+			[
+				"a",
+				"arr_str"
+			],
+			[
+				"res",
+				"result_array"
+			],
+			[
+				"lim",
+				"LIMIT"
+			],
+			[
+				"pri",
+				"print"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"explo",
+				"explore"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "application/controllers/Insight.php",
+			"settings":
+			{
+				"buffer_size": 4611,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/views/theme/default/Page/Page_sidebar.php",
+			"settings":
+			{
+				"buffer_size": 9721,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/views/theme/default/menu.php",
+			"settings":
+			{
+				"buffer_size": 5167,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/views/theme/default/footer.php",
+			"settings":
+			{
+				"buffer_size": 4181,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/controllers/Homepage.php",
+			"settings":
+			{
+				"buffer_size": 871,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/controllers/Ajax.php",
+			"settings":
+			{
+				"buffer_size": 3705,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/views/theme/default/Category/Category_grid.php",
+			"settings":
+			{
+				"buffer_size": 2679,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/config/config.php",
+			"settings":
+			{
+				"buffer_size": 18133,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 265.0,
+		"last_filter": "ph",
+		"selected_items":
+		[
+			[
+				"ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"c",
+				"Set Syntax: C++"
+			],
+			[
+				"sspy",
+				"Set Syntax: PHP"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: add",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 560.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/views",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/views/theme",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/views/theme/default",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/views/theme/default/Article",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/views/theme/default/Category",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/views/theme/default/Homepage",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/views/theme/default/Insight",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/views/theme/default/Page",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/assets",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/assets/theme"
+	],
+	"file_history":
+	[
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/views/theme/default/menu.php",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/controllers/Page.php",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/views/theme/default/Page/Page_note.php",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/views/theme/default/Insight/Add_article.php",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/models/Category_art.php",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/models/Page_art.php",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/views/theme/default/Category/Category_grid.php",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/views/theme/default/Insight/Main.php",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/models/Universal_query.php",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/controllers/Ajax.php",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/controllers/Category.php",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/views/theme/default/Insight/Sidebar.php",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/controllers/Article.php",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/views/theme/default/Insight/My_thread.php",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/views/theme/default/Page/Page_sidebar.php",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/views/theme/default/footer.php",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/views/theme/default/header.php",
+		"/root/.config/sublime-text-3/Packages/User/SVN.errors.log",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/assets/theme/default/fonts/glyphicons-halflings-regular.eot",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/assets/theme/default/js/sella.min.js",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/views/theme/default/homepage.php",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/config/routes.php",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/assets/theme/bootstrap/js/magnific.js",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/home/services.html",
+		"/opt/lampstack-5.6.19-0/apache2/htdocs/ddamcms/application/config/database.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"submit",
+			"pop_login",
+			"login_up",
+			"login_up\nlogin_up",
+			"login_up",
+			"pop_formcp",
+			"login",
+			"picture",
+			"form_up",
+			"form_picture",
+			"modal-title",
+			"ajaxSubmit",
+			"ajax",
+			"Submit",
+			"ajaxSubmit",
+			"pace-running",
+			"pace",
+			"picture",
+			"pop",
+			"pop-up",
+			"pop-",
+			"description",
+			"div[name=\"description\"]",
+			"get_global",
+			"glyphi",
+			"reload_table",
+			"speed",
+			"conten",
+			"content",
+			"form",
+			"modal",
+			"pop",
+			"text",
+			"TAG CLOUD",
+			"add",
+			"home",
+			"menu",
+			"        \n",
+			"category",
+			"menu",
+			"booking-sort-title",
+			"price-slider",
+			"price",
+			"change",
+			"setting",
+			"change",
+			"filter",
+			"method",
+			"fn",
+			"IonRangeSlider",
+			"){",
+			"create",
+			"media_result",
+			"event",
+			"input",
+			"_click",
+			"iCheck-helper",
+			"checkbox",
+			"change",
+			"i-check",
+			"icheck",
+			"search-dialog",
+			"i-check",
+			"filter_submit",
+			"search-cat",
+			"nicescroll-rails",
+			"nicescroll",
+			"nicescroll-rails",
+			"search-dialog",
+			"search-cat",
+			"id_category",
+			"bmw",
+			"$id_ka",
+			"wrold",
+			"userna",
+			"John",
+			"UGM",
+			"uploud",
+			"ambil_id",
+			"tampil_nama_kategori",
+			"search-dialog",
+			"next",
+			"paginatio",
+			"pagination",
+			"header",
+			"map",
+			"Point",
+			"p.x",
+			"TouchScreen"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "application/controllers/Insight.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3347,
+								3347
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1632.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/views/theme/default/Page/Page_sidebar.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4799,
+								4799
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1299.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/views/theme/default/menu.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5167,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2965,
+								2965
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 814.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application/views/theme/default/footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4181,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3402,
+								3402
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 268.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "application/controllers/Homepage.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 871,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								686,
+								686
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "application/controllers/Ajax.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3705,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								728,
+								728
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 402.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "application/views/theme/default/Category/Category_grid.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								772,
+								772
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "application/config/config.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11034,
+								11034
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6006.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ddamcms.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 285.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

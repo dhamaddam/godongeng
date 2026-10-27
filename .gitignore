@@ -1,0 +1,14 @@
+.DS_Store
+.svn/
+*.log
+*.swp
+*.swo
+*.bak
+*.old
+application/logs/
+application/cache/
+application/third_party/vendor/**/tests/
+application/config/database.php
+assets/theme/default/twitter/config.php
+assets/theme/default/form/config.php
+application/third_party/vendor/**/tests/**
