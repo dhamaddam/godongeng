@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /part/
+Disallow: /insight/*
+Disallow: /art/ddam
+Disallow: /ajax/update_article
+Disallow: /ajax/do_logout
+Disallow: /ajax/*
+Allow: /assets/theme/default/
