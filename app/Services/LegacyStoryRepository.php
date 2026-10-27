@@ -38,13 +38,20 @@ class LegacyStoryRepository
     public function findByUri(string $uri): ?object
     {
         $path = trim(rawurldecode($uri), '/');
+        $uriCandidates = [$path, '/'.$path];
+
+        if (! Str::startsWith($path, 'p/')) {
+            $uriCandidates[] = 'p/'.$path;
+            $uriCandidates[] = '/p/'.$path;
+        }
 
         if ($this->isConfigured()) {
             try {
                 $story = $this->connection()->table('article')
-                    ->where('uri', $path)
-                    ->orWhere('uri', '/'.$path)
-                    ->orWhere('id_art_user_category', $path)
+                    ->where(function ($query) use ($path, $uriCandidates): void {
+                        $query->whereIn('uri', $uriCandidates)
+                            ->orWhere('id_art_user_category', $path);
+                    })
                     ->first();
 
                 if ($story !== null) {
@@ -97,7 +104,7 @@ class LegacyStoryRepository
 
     public function addComment(string $storyId, array $comment): bool
     {
-        if (! $this->isConfigured()) {
+        if (! $this->isConfigured() || $this->isReadOnly()) {
             return false;
         }
 
@@ -119,6 +126,10 @@ class LegacyStoryRepository
 
     public function updateAttributes(string $storyId, array $attributes): bool
     {
+        if ($this->isReadOnly()) {
+            return false;
+        }
+
         if (! $this->isConfigured()) {
             return false;
         }
@@ -158,7 +169,7 @@ class LegacyStoryRepository
     {
         $allowed = ['picture_description', 'first_picture', 'second_picture', 'third_picture', 'fourth_picture'];
 
-        if (! $this->isConfigured() || ! in_array($attribute, $allowed, true)) {
+        if (! $this->isConfigured() || $this->isReadOnly() || ! in_array($attribute, $allowed, true)) {
             return false;
         }
 
@@ -185,7 +196,7 @@ class LegacyStoryRepository
 
     public function saveStory(array $story, int $userId, string $imageName): ?string
     {
-        if (! $this->isConfigured()) {
+        if (! $this->isConfigured() || $this->isReadOnly()) {
             return null;
         }
 
@@ -250,6 +261,11 @@ class LegacyStoryRepository
     private function isConfigured(): bool
     {
         return filled(config('database.connections.legacy.database'));
+    }
+
+    private function isReadOnly(): bool
+    {
+        return (bool) config('database.connections.legacy.read_only', false);
     }
 
     private function connection(): Connection

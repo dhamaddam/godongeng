@@ -82,6 +82,7 @@ return [
             'options' => extension_loaded('pdo_mysql') ? array_filter([
                 Mysql::ATTR_SSL_CA => env('LEGACY_MYSQL_ATTR_SSL_CA'),
             ]) : [],
+            'read_only' => env('LEGACY_DB_READ_ONLY', false),
         ],
 
         'mariadb' => [
